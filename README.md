@@ -31,17 +31,12 @@ Aplikasi berbasis Streamlit untuk memprediksi radiasi matahari menggunakan model
 
 
 Input dan Output 📝
+
 Input: Data terkait kondisi lingkungan seperti temperatur, kelembapan, dan waktu (format CSV atau manual input).
+
 Output: Prediksi radiasi matahari dalam satuan yang sesuai (misalnya W/m²).
+
 URL Demo Aplikasi : https://solar-radiaton-prediction.streamlit.app/
 
-Pengembangan Selanjutnya 🚧
-Menambahkan prediksi untuk data real-time menggunakan API cuaca.
-Memperluas dataset untuk meningkatkan akurasi model.
-Mengintegrasikan hasil prediksi ke dalam dashboard energi terbarukan.
 
-Kontributor 🤝
-(luciferdana) - Developer.
-Lisensi 📜
-Proyek ini dilisensikan di bawah MIT License.
 
