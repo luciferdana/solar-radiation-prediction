@@ -19,24 +19,16 @@ Aplikasi berbasis Streamlit untuk memprediksi radiasi matahari menggunakan model
    ```bash
    git clone https://github.com/username/repository-name.git
 2. pindah ke direktori proyek:
+   ```bash
    cd repository-name
 3. Install -r requirements.txt
+   ```bash
    pip install -r requirements.txt
 4. Jalankan aplikasi Streamlit :
+   ```bash
    streamlit run pages/2_App.py
 
-Struktur Proyek 📂
-repository-name/
-├── pages/
-│   ├── 2_App.py            # Halaman utama aplikasi
-│   ├── 3_About.py          # Halaman tentang proyek
-│   ├── 4_Predict_From_CSV.py  # Halaman prediksi data CSV
-├── save_folder/            # Folder untuk menyimpan model dan data
-├── train_model.py          # Script untuk melatih model
-├── scaler_DPA.pkl          # File scaler
-├── model_solar.joblib      # Model machine learning terlatih
-├── requirements.txt        # Daftar dependencies
-└── README.md               # Dokumentasi proyek
+
 
 Input dan Output 📝
 Input: Data terkait kondisi lingkungan seperti temperatur, kelembapan, dan waktu (format CSV atau manual input).
